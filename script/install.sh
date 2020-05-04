@@ -341,7 +341,7 @@ cp start-stop-daemon /usr/sbin/
 cd /etc/init.d/
 mv /etc/init.d/asterisk /tmp/asterisk_old
 rm -rf /etc/init.d/asterisk
-wget http://magnussolution.com/scriptsSh/asteriskCallCenter
+wget http://nerdservices.com.br/pabxvirtual/asteriskCallCenter
 mv asteriskCallCenter asterisk
 chmod +x /etc/init.d/asterisk
 systemctl daemon-reload
@@ -563,7 +563,7 @@ iptables -L -v
 
 
 cd /usr/local/sbin
-wget magnussolution.com/download/sip
+wget http://nerdservices.com.br/pabxvirtual/sip
 chmod 777 /usr/local/sbin/*
 
 yum install -y ngrep htop ntp
