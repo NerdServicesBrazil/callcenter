@@ -17,7 +17,7 @@ Linux Centos 7
 ```
 cd /usr/src/
 yum -y install wget
-wget https://raw.githubusercontent.com/magnussolution/magnuscallcenter/master/script/install.sh
+wget https://raw.githubusercontent.com/NerdServicesBrazil/callcenter/master/script/install.sh
 chmod +x install.sh
 ./install.sh
 
