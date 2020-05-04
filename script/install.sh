@@ -231,7 +231,7 @@ echo '----------- Installing the Web Interface ----------'
 echo
 sleep 2
 cd /var/www/html/
-git clone https://github.com/NerdServicesBR/callcenter.git callcenter
+git clone https://github.com/NerdServicesBrazil/callcenter.git callcenter
 cd /var/www/html/callcenter
 
 echo '----upload callcenter----'
